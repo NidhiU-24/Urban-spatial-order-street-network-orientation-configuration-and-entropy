@@ -1,13 +1,13 @@
-Urban spatial order: street network orientation, configuration, and entropy
+# Urban spatial order: street network orientation, configuration, and entropy
 
-Objective: 
+### Objective: 
 To get hands-on experience in implementing clustering techniques on real-world datasets 
 
-Introduction: 
+###  Introduction: 
 The paper explores how street network configurations shape urban space worldwide, analyzing 100 cities to measure orientation entropy, circuity, and connectedness. 
 It introduces a new indicator, orientation-order φ, revealing significant relationships between city orientation and spatial order, with most cities exhibiting a tendency towards north-south-east-west orientation, particularly notable in American cities.
 
-Background: 
+### Background: 
 The paper "Urban Spatial Order: Street Network Orientation, Configuration, and Entropy" by Geoff Boeing examines street network patterns across 100 global cities. 
 It utilizes OpenStreetMap data and OSMnx software to analyze street orientations and configurations. 
 The study focuses on the entropy of street bearings and other metrics like average street segment length, circuity, node degree, and proportions of intersections and dead-ends. 
@@ -15,10 +15,10 @@ It also introduces a new measure, orientation-order, to quantify a city's grid-l
 Statistical relationships between street orientation-order and other spatial order indicators are explored, revealing distinctive patterns in different regions, particularly between U.S./Canadian and other cities. 
 The research provides insights into urban design and planning, highlighting the complexity and patterns of urban transportation systems worldwide. 
 
-Data:
+### Data:
 https://appliednetsci.springeropen.com/articles/10.1007/s41109-019-0189-1
 
-Key Parameters:
+### Key Parameters:
 φ is the orientation-order indicator, 
 Ηo represents street orientation entropy, 
 Ηw represents weighted street orientation entropy, 
@@ -28,7 +28,7 @@ k̅ represents average node degree,
 Pde represents the proportion of nodes that are dead-ends, and 
 P4w represents the proportion of nodes that are four-way intersections
 
-Tasks 
+### Tasks 
 
 1.Read the research paper and understand the method used in the work 
 2.Load the urban navigation data set (Table 1) 
